@@ -173,6 +173,7 @@ p {
   justify-content: space-between;
   opacity: 0.96;
   background-color: #252525;
+  scrollbar-color: #bc987e transparent;
   width: 31rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
