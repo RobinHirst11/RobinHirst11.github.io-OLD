@@ -50,17 +50,17 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(83, 172, 255, 0.8);
+  background: #bc987e;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(83, 172, 255, 1);
+  background: #bc987e;
 }
 
 .scrollbar-custom {
   scrollbar-width: thin;
-  scrollbar-color: rgba(83, 172, 255, 0.8) transparent;
+  scrollbar-color: #bc987e transparent;
 }
 
 body {
