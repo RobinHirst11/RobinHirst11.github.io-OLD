@@ -173,36 +173,12 @@ p {
   justify-content: space-between;
   opacity: 0.96;
   background-color: #252525;
-  scrollbar-color: #bc987e transparent;
   width: 31rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 35px 35px;
   overflow: auto;
   max-height: 100%;
-}
-
-.stats-container.scrollbar-custom {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(83, 172, 255, 0.8) transparent;
-}
-
-.stats-container::-webkit-scrollbar {
-  width: 8px;
-}
-
-.stats-container::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 10px;
-}
-
-.stats-container::-webkit-scrollbar-thumb {
-  background: rgba(83, 172, 255, 0.8);
-  border-radius: 10px;
-}
-
-.stats-container::-webkit-scrollbar-thumb:hover {
-  background: rgba(83, 172, 255, 1);
 }
 
 @media only screen and (max-width: 550px) {
@@ -294,9 +270,6 @@ p {
   font-size: 25px;
 }
 
-.text-blue {
-  color: #53acff;
-}
 
 .about-me,
 .member-since {
@@ -506,48 +479,4 @@ p {
   .pronouns {
     font-size: 43px;
   }
-}
-
-
-
-.github-button {
-  display: flex;
-  align-items: center;
-  background-color: #171515;
-  border-radius: 5px;
-  padding: 8px 12px;
-  text-decoration: none;
-  color: white;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-}
-
-.github-button:hover {
-  border-color: rgb(255, 255, 255);
-}
-
-.github-icon {
-  font-size: 24px;
-  margin-right: 8px;
-}
-
-.github-text {
-  font-weight: bold;
-  margin-right: 8px;
-}
-
-.github-arrow {
-  font-size: 18px;
-}
-a:link { 
-  text-decoration: none; 
-} 
-a:visited { 
-  text-decoration: none; 
-} 
-a:hover { 
-  text-decoration: none; 
-} 
-a:active { 
-  text-decoration: none; 
 }
