@@ -40,29 +40,6 @@ p {
   src: URL("PixelarRegular.ttf") format("truetype");
 }
 
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #bc987e;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #bc987e;
-}
-
-.scrollbar-custom {
-  scrollbar-width: thin;
-  scrollbar-color: #bc987e transparent;
-}
-
 body {
   display: flex;
   flex-direction: column;
